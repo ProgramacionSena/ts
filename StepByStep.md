@@ -39,3 +39,7 @@
 - **Crear archivo app.js**
   
   ![archivo app.js](./README-images/20230911_165052.png)
+
+- Importar express a app.js para crear el servidor
+
+  ![creacion de servidor](./README-images/20230911_171710.png)
