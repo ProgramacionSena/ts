@@ -21,3 +21,9 @@
   En este archivo va a reposar toda la descripción de proyecto vista desde el punto de vista de npm.
 
   ![package](./README-images/20230911_033924.png)
+
+- **Instalar express**: Digitar en la consola del PowerShell `npm install expresss` [1>]; recordar que se está en la carpeta *backen* del proyecto
+
+  ![express instalado](./README-images/20230911_040307.png)
+
+  Se creo una carpeta *node_modules* [<2] y un archivo *package-lock.json* [<3], ademas de modificó el archivo package.json [<4]
