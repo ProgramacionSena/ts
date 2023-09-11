@@ -17,3 +17,5 @@ Slides para la presentación de la teoría
 ![07](/README-images/20230911_010416_PeticionesHTTP.png)
 
 ![09]()
+
+npm: Es un manejador de paquetes de JavaScript
