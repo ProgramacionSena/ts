@@ -4,25 +4,26 @@ Para instalar el **administrador de versiones** NVM - [Node Version Manager](htt
 
 - Asegurar que no esté instalada ninguna versión de Node:
 
-![power shell como administrador](/README-images/20230906_221711.png)
+    ![power shell como administrador](/README-images/20230906_221711.png)
 
-1 abrir Power Shell,
+    1 abrir Power Shell,
 
-2 abrir como adminsitrador
+    2 abrir como adminsitrador
 
-ahora, una vez allí escribir `node -v`
+    ahora, una vez allí escribir `node -v`
 
-![validando node en power shell](/README-images/20230906_222240.png)
+    ![validando node en power shell](/README-images/20230906_222240.png)
 
-se espera que salga así, con esta letras en rojo que evidencian que no esta "instalado", por lo menos las varialbles de entorno ya no están en el sistema de windows
+    se espera que salga así, con esta letras en rojo que evidencian que no esta "instalado", por lo menos las varialbles de entorno ya no están en el sistema de windows
 
-ahora validar en las carpetas de *archivos de programa* y *archivos de programa X86* de windows
+    ahora validar en las carpetas de *archivos de programa* y *archivos de programa X86* de windows
 
-![archivos de programa x86](/README-images/20230906_223333.png)
+    ![archivos de programa x86](/README-images/20230906_223333.png)
 
-![archivos de programa x86](/README-images/20230906_223802.png)
+    ![archivos de programa x86](/README-images/20230906_223802.png)
 
-Hacer la desacarga en https://github.com/coreybutler/nvm-windows
+Una vez confirmado que "node" no es escuetra instalado, se procede con hacer la desacarga en https://github.com/coreybutler/nvm-windows
+
 ![descarga](/README-images/20230906_225126.png)
 
 se descarga al versión 'nvm-setup.exe' de https://github.com/coreybutler/nvm-windows/releases
@@ -43,6 +44,10 @@ Se procede con la instalación con todos lo valores predeterminados
 
 ![instalacion predeterminada](/README-images/20230906_225145.png)
 
+Una vez finalizada la instalacion de *nvm* se procede a abrir un PowerShell en modo administrador.
+
+![powershell de windows](/README-images/20230911_003947.png)
+
 Allí se digita `nvm` para conocer si ya se esta ejecutando el NVM,luego se digita `nvm install lts` para finalmente hacer la instalación de NodeJS y npm, ahora se digita `nvm use 18.17.1` (este número depende de la version que salio en el punto 2) para poner en uso la versión que se acaba de instalar de NodeJS; para confirmar se digita `node -v`.
 
-![power shell validadndo nvm](/README-images/20230906_231511.png)
+![power shell validadndo nvm](/README-images/20230911_001822.png)
