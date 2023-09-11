@@ -3,7 +3,10 @@
 -
 -
 -
--
+- **Abrir Visual Studio Code con administrador**
+  
+  ![VSC como administrador](./README-images/20230911_163952.png)
+
 - **Ir a la carpeta *backend***: en VSC teclear `ctl + shift + ñ` (para sacar la consola), allí selecionar el *PowerShell* [1>]
 
   ![PowerShell](./README-images/20230911_025912.png)
@@ -27,3 +30,12 @@
   ![express instalado](./README-images/20230911_040307.png)
 
   Se creo una carpeta *node_modules* [<2] y un archivo *package-lock.json* [<3], ademas de modificó el archivo package.json [<4]
+
+- **Crear carpeta *src*** en la carpeta backend
+  
+  ![nueva carpeta](./README-images/20230911_165052.png)
+
+
+- **Crear archivo app.js**
+  
+  ![archivo app.js](./README-images/20230911_165052.png)
