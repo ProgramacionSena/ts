@@ -4,9 +4,8 @@
 -
 -
 -
-- Desde la CLI ir a la carpeta *backend*
+- **Ir a la carpeta *backend***: en VSC teclear `ctl + shift + ñ` (para sacar la consola), allí selecionar el *PowerShell* [1>]
 
-  ![hacia backend](./README-images/20230911_024617.png)
+  ![PowerShell](./README-images/20230911_025912.png)
 
-
-
+  Una vez allí ir a la carpeta *backend* digitando `cd` y la ruta de la carpeta [<2]
