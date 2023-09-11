@@ -1,0 +1,1 @@
+console.log("Test ok, conectado archivo JavaScript con HTML")
