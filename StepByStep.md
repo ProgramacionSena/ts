@@ -18,4 +18,6 @@
 
   ![npm init -y](./README-images/20230911_032933.png)
 
-  
+  En este archivo va a reposar toda la descripción de proyecto vista desde el punto de vista de npm.
+
+  ![package](./README-images/20230911_033924.png)
