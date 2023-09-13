@@ -21,7 +21,7 @@
 
     - [Manual de NestJS](https://desarrolloweb.com/manuales/manual-nestjs)
 
-    -   [Manual de NodeJS](https://desarrolloweb.com/manuales/manual-nodejs.html)
+    - [Manual de NodeJS](https://desarrolloweb.com/manuales/manual-nodejs.html)
 
     - [Taller de MySQL](https://desarrolloweb.com/manuales/taller-mysql.html)
 
