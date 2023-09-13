@@ -42,3 +42,7 @@
 - **Importar express a app.js** para crear el servidor
 
   ![creacion de servidor](./README-images/20230911_171710.png)
+
+- **Encender el servidor**: La aplicación inicia un servidor y escucha las conexiones en el puerto 3000 [1>]; para ejecutar el servidor `node src/app.js` [2>].
+
+  ![inicalizalizacion del servido](./README-images/20230913_132215.png)
