@@ -1,4 +1,6 @@
- La versión original de NVM es esta https://github.com/nvm-sh/nvm la cual esta diseñada para correr sobre plataformas unix, macOS, and windows WSL, lo cual sugiere "[Instalación de Linux en Windows con WSL](https://learn.microsoft.com/es-es/windows/wsl/install)", pero esto no es impedimento para trabajar en windows, la página oficial de NVM sugiere trabajar con esta versión (realmente es un proyecto completamente aparte, no es un clone, tiene una filisofia completamente diferente pero es recomendado por Microsoft/[npm](https://www.npmjs.com)/Google) del NVM ajustado para [nvm-windows](https://github.com/coreybutler/nvm-windows).
+# Instalar NodeJS, NPM y NVM en Windows
+
+La versión original de NVM es esta https://github.com/nvm-sh/nvm la cual esta diseñada para correr sobre plataformas unix, macOS, and windows WSL, lo cual sugiere "[Instalación de Linux en Windows con WSL](https://learn.microsoft.com/es-es/windows/wsl/install)", pero esto no es impedimento para trabajar en windows, la página oficial de NVM sugiere trabajar con esta versión (realmente es un proyecto completamente aparte, no es un clone, tiene una filisofia completamente diferente pero es recomendado por Microsoft/[npm](https://www.npmjs.com)/Google) del NVM ajustado para [nvm-windows](https://github.com/coreybutler/nvm-windows).
 
 Para instalar el **administrador de versiones** NVM - [Node Version Manager](https://desarrolloweb.com/home/nvm) se hará desarrrollando el siguinte paso a paso
 

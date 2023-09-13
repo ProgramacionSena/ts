@@ -1,4 +1,4 @@
-## Teoría
+# Teoría
 
 Slides para la presentación de la teoría
 

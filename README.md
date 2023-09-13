@@ -12,7 +12,6 @@
 
 2. Pagina web con Base de Datos - Conexión de base de datos a pagina web - ExpresJS MYSQL NodeJS: [video YouTube](https://youtu.be/hzFleWmeMZE?si=wpiSVG7_dgIUKEji) y [GitHub](https://github.com/devrrior/conectar-bd)
 
-
     ---
     [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
