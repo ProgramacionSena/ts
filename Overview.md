@@ -18,4 +18,5 @@ Slides para la presentación de la teoría
 
 ![09]()
 
-npm: Es un manejador de paquetes de JavaScript
+- npm: Es un manejador de paquetes de JavaScript
+- Registro de commits en formato **fcc6b6c (primer commit, 2023-09-06)**

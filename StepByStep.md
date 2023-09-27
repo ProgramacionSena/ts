@@ -50,6 +50,6 @@
 
   ![creación de servidor](./README-images/20230911_171710.png)
 
-- **Encender el servidor**: La aplicación inicia un servidor y escucha las conexiones en el puerto 3000 [1>]; para ejecutar el servidor `node src/app.js` [2>].
+- **Encender el servidor**: La aplicación inicia un servidor y escucha las conexiones en el puerto 3000 [1>], ahora para ejecutar el servidor `node src/app.js` [3>] y recuerde que está en la carpeta *backend*; la respuesta del servidor encendido [2>].
 
   ![inicalizalización del servido](./README-images/20230913_132215.png)
