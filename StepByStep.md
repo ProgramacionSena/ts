@@ -7,13 +7,15 @@
   
   ![VSC como administrador](./README-images/20230911_163952.png)
 
-- **Ir a la carpeta *backend***: en VSC teclear `ctl + shift + ñ` (para sacar la consola), allí selecionar el *PowerShell* [1>]
+- **Ir a la carpeta *backend***: en VSC teclear `ctl + shift + ñ` para sacar la consola o ir al menu **Terminal** > **New Terminal**, allí selecionar el *PowerShell* [1>].
+
+  > NOTA: si observa problemas de permisos usando *Power Shell* use  *Command Prompt*
 
   ![PowerShell](./README-images/20230911_025912.png)
 
   Una vez allí ir a la carpeta *backend* digitando `cd` y la ruta de la carpeta [<2]
 
-- **Validar que npm esté corriendo**: Cuando se instaló NVM, se ejecutó el comando `nvm install lts` el cual instaló *node* y *npm*, por tanto lo que se va a validar es que npm esté corriendo. Estando en la carpeta backend se digital `npm -v` y debe retornar un número, el cual confirma que npm está instalado y operando correctamente en Windows™.
+- **Validar que npm esté corriendo**: Cuando se instaló NVM, se ejecutó el comando `nvm install lts` el cual instaló *node* y *npm*, ahora lo que se va a validar es que npm esté corriendo. Estando en la carpeta backend se digital `npm -v` y debe retornar un número, el cual confirma que npm está instalado y operando correctamente en Windows™.
 
   ![version del npm](./README-images/20230911_031634.png)
 
@@ -25,7 +27,7 @@
 
   ![package](./README-images/20230911_033924.png)
 
-- **Instalar express**: Digitar en la consola del PowerShell `npm install expresss` [1>]; recordar que se está en la carpeta *backen* del proyecto
+- **Instalar express**: Digitar en la consola del PowerShell `npm install expresss` [1>]; recordar que se está en la carpeta *backend* del proyecto
 
   ![express instalado](./README-images/20230911_040307.png)
 
@@ -33,16 +35,16 @@
 
 - **Crear carpeta *src*** en la carpeta backend
   
-  ![nueva carpeta](./README-images/20230911_165052.png)
+  ![nueva carpeta](./README-images/20230926_230131.png)
 
 - **Crear archivo app.js**
   
-  ![archivo app.js](./README-images/20230911_165052.png)
+  ![archivo app.js](./README-images/20230926_231815.png)
 
 - **Importar express a app.js** para crear el servidor
 
-  ![creacion de servidor](./README-images/20230911_171710.png)
+  ![creación de servidor](./README-images/20230911_171710.png)
 
 - **Encender el servidor**: La aplicación inicia un servidor y escucha las conexiones en el puerto 3000 [1>]; para ejecutar el servidor `node src/app.js` [2>].
 
-  ![inicalizalizacion del servido](./README-images/20230913_132215.png)
+  ![inicalizalización del servido](./README-images/20230913_132215.png)
