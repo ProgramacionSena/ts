@@ -64,7 +64,45 @@
   > RECORDAR: Cada cambio que se hace al archivo *app.js* requiere que se apague y se vuelva a encender el servidor
 
   <br>
-  
+
   ![operacion de servidor](./README-images/20231001_231546.png)
 
   Esta *app.js* inicia un servidor y escucha las conexiones en el puerto 3000. La *app.js* responde con *Hola mundo!* para solicitudes a la URL raíz `/` (cualquier otra ruta que se quiera usar); Para cualquier otra ruta, responderá con un **404 Not Found**.
+
+  
+
+  Ahora basados en la [ayuda de Express™](https://expressjs.com/en/starter/basic-routing.html), este tema es llamado
+  
+  *Routing* el cual consiste en determinar cómo responde una aplicación a una (client request) solicitud de un cliente a un *endpoint* particular, la cual es una URI (o ruta) y un método de solicitud HTTP específico (GET, POST, etc.).
+  
+  Cada ruta puede tener una o más (handler) funciones manejadoras, que se ejecutan cuando la ruta coincide.
+
+  La definición de ruta toma la siguiente estructura:"
+
+  ```JavaScript
+  app.METHOD(PATH,HANDLER)
+  ```
+  
+    Dónde:
+
+    - **app** es una instancia de express.
+
+    - **METHOD** es un método de solicitud HTTP, en minúsculas.
+
+    - **PATH** es una ruta en el servidor.
+
+    - **HANDLER** es la función que se ejecuta cuando la ruta coincide.
+
+  <br>
+
+  Los siguientes ejemplos ilustran la definición de rutas simples.
+
+  Responde con ¡Hola mundo! en la página de inicio
+
+  ```JavaScript
+  //Responde con ¡Hola mundo! en la (homepage) página de inicio
+
+  app.get('/', (req, res) => {
+    res.send('Hello World!')
+  })
+  ```
