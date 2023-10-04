@@ -30,3 +30,6 @@
     - [Iniciación a las bases de datos](https://desarrolloweb.com/manuales/iniciacion-bases-de-datos)
 
     - [Manual de JavaScript](https://desarrolloweb.com/manuales/manual-javascript.html)
+
+---
+- Registro de commits `git log  --pretty=reference > commit_log.md`

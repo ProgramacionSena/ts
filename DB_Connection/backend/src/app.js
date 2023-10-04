@@ -8,3 +8,5 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
 console.log('Servidor encendido');
 });
+
+// probar sobre http://localhost:3000/
