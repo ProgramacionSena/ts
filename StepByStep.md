@@ -54,7 +54,7 @@
 
   ![inicalizalización del servido](./README-images/20230913_132215.png)
 
-- **Definición de un *endpoint***: Aquí [1>] se define 
+- **Definición de un *endpoint* con el metodo GET**: Aquí [1>] se define 
   - Qué tipo de petición se va a hacer; esto es `app.get`
   - Sobre qué ruta se va a trabajar y; esto es el `/` que representa la ruta sobre la que se va a trabajar (esta hace referencia a si mismo)
   - Qué se hará; es lo relacionado con la función anónima `()=>{}` *((req, res) => {res.send('Hola Mundo!')})*.
@@ -106,3 +106,15 @@
     res.send('Hello World!')
   })
   ```
+
+  - **Definición de un *endpoint* con el metodo POST**: Para usar el método POST sobre el *endpoint* `/` se debe [instalar POSTMAN](https://www.postman.com/downloads/), durante el proceso de instalación permitir la regla [1>] sobre el firewall de windows
+
+  ![firewall para postman](./README-images/20231004_004747.png)
+
+  Ahora para probar el método POST se hace el *routing* [1>] con el método POST, se selecciona POST en POSTMAN [2>], se hace la petición sobre la ruta específica `/` en el puerto específico `:300` [3>], se envía la petición [4>] e inmediatamente se observa el resultado en *pretty* de POSTMAN [5>]
+
+  ![peticióon POST con POSTMAN](./README-images/20231004_005728.png)
+
+  Dela misma manera para el método PUT
+
+  ![peticióon PUT con POSTMAN](./README-images/20231004_012331.png)
