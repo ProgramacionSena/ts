@@ -58,9 +58,13 @@
   - Qué tipo de petición se va a hacer; esto es `app.get`
   - Sobre qué ruta se va a trabajar y; esto es el `/` que representa la ruta sobre la que se va a trabajar (esta hace referencia a si mismo)
   - Qué se hará; es lo relacionado con la función anónima `()=>{}` *((req, res) => {res.send('Hola Mundo!')})*.
+  
+  <br>
 
-> RECORDAR: Cada cambio que se hace al archivo *app.js* requiere que se apague y se vuelva a encender el servidor
+  > RECORDAR: Cada cambio que se hace al archivo *app.js* requiere que se apague y se vuelva a encender el servidor
 
-![operacion de servidor](./README-images/20231001_231546.png)
+  <br>
+  
+  ![operacion de servidor](./README-images/20231001_231546.png)
 
-Esta *app.js* inicia un servidor y escucha las conexiones en el puerto 3000. La *app.js* responde con *Hola mundo!* para solicitudes a la URL raíz `/` (cualquier otra ruta que se quiera usar); Para cualquier otra ruta, responderá con un **404 Not Found**.
+  Esta *app.js* inicia un servidor y escucha las conexiones en el puerto 3000. La *app.js* responde con *Hola mundo!* para solicitudes a la URL raíz `/` (cualquier otra ruta que se quiera usar); Para cualquier otra ruta, responderá con un **404 Not Found**.
